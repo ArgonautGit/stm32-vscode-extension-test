@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/home/nick/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc")
+set(CMAKE_C_COMPILER "/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "12.3.1")
@@ -21,11 +21,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/home/nick/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/arm-none-eabi-ar")
-set(CMAKE_C_COMPILER_AR "/home/nick/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar")
-set(CMAKE_RANLIB "/home/nick/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/arm-none-eabi-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/home/nick/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib")
-set(CMAKE_LINKER "/home/nick/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++")
+set(CMAKE_AR "/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-ar")
+set(CMAKE_C_COMPILER_AR "/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ar")
+set(CMAKE_RANLIB "/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc-ranlib")
+set(CMAKE_LINKER "/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCC 1)

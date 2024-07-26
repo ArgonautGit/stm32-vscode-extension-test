@@ -51,7 +51,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ./Core/Src/ssd1306/ssd1306_fonts.c
     ./Core/Src/ssd1306/ssd1306_tests.c
 
-    ./Core/Src/mine/mine.c
+    # ./Core/Src/mine/mine.c
     # ../../Core/Src/ssd1306/
 
     #THIS THIS THIS THIS THIS THIS THIS THIS

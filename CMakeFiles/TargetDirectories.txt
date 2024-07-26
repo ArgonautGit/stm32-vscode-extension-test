@@ -1,5 +1,5 @@
-/home/nick/Electronics/cubemx/test/CMakeFiles/test.dir
-/home/nick/Electronics/cubemx/test/CMakeFiles/edit_cache.dir
-/home/nick/Electronics/cubemx/test/CMakeFiles/rebuild_cache.dir
-/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
+/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/CMakeFiles/test.dir
+/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/CMakeFiles/edit_cache.dir
+/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/CMakeFiles/rebuild_cache.dir
+/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

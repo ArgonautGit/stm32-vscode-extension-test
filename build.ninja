@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/nick/Electronics/cubemx/test/
+cmake_ninja_workdir = /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/
 # =============================================================================
 # Object build statements for EXECUTABLE target test
 
@@ -49,163 +49,203 @@ cmake_ninja_workdir = /home/nick/Electronics/cubemx/test/
 
 build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
-build CMakeFiles/test.dir/Core/Src/main.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Core/Src/main.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/ssd1306/ssd1306.c || cmake_object_order_depends_target_test
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src/ssd1306
+
+build CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306_fonts.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/ssd1306/ssd1306_fonts.c || cmake_object_order_depends_target_test
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306_fonts.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src/ssd1306
+
+build CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306_tests.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/ssd1306/ssd1306_tests.c || cmake_object_order_depends_target_test
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306_tests.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src/ssd1306
+
+build CMakeFiles/test.dir/Core/Src/mine/mine.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/mine/mine.c || cmake_object_order_depends_target_test
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles/test.dir/Core/Src/mine/mine.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src/mine
+
+build CMakeFiles/test.dir/Core/Src/main.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/main.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Core/Src/main.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src
 
-build CMakeFiles/test.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Core/Src/stm32f1xx_it.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src
 
-build CMakeFiles/test.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d
+  DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c || cmake_object_order_depends_target_test
-  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = CMakeFiles/test.dir
-  OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
-
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
 
-build CMakeFiles/test.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_test
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
+
+build CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c || cmake_object_order_depends_target_test
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src
+
+build CMakeFiles/test.dir/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Core/Src/system_stm32f1xx.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src
 
-build CMakeFiles/test.dir/Core/Src/sysmem.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Core/Src/sysmem.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Core/Src/sysmem.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/sysmem.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Core/Src/sysmem.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src
 
-build CMakeFiles/test.dir/Core/Src/syscalls.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/Core/Src/syscalls.c || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/Core/Src/syscalls.c.obj: C_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/Core/Src/syscalls.c || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/Core/Src/syscalls.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/Core/Src
 
-build CMakeFiles/test.dir/startup_stm32f103xb.s.obj: ASM_COMPILER__test_unscanned_Debug /home/nick/Electronics/cubemx/test/startup_stm32f103xb.s || cmake_object_order_depends_target_test
+build CMakeFiles/test.dir/startup_stm32f103xb.s.obj: ASM_COMPILER__test_unscanned_Debug /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/startup_stm32f103xb.s || cmake_object_order_depends_target_test
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles/test.dir/startup_stm32f103xb.s.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -x assembler-with-cpp -MMD -MP -g
-  INCLUDES = -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/Electronics/cubemx/test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/ssd1306 -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/./Core/Inc/mine -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Core/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir
 
@@ -217,7 +257,7 @@ build CMakeFiles/test.dir/startup_stm32f103xb.s.obj: ASM_COMPILER__test_unscanne
 #############################################
 # Link the executable test.elf
 
-build test.elf: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/Core/Src/main.c.obj CMakeFiles/test.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/test.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/test.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/test.dir/Core/Src/sysmem.c.obj CMakeFiles/test.dir/Core/Src/syscalls.c.obj CMakeFiles/test.dir/startup_stm32f103xb.s.obj
+build test.elf: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306.c.obj CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306_fonts.c.obj CMakeFiles/test.dir/Core/Src/ssd1306/ssd1306_tests.c.obj CMakeFiles/test.dir/Core/Src/mine/mine.c.obj CMakeFiles/test.dir/Core/Src/main.c.obj CMakeFiles/test.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/test.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj CMakeFiles/test.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj CMakeFiles/test.dir/Core/Src/system_stm32f1xx.c.obj CMakeFiles/test.dir/Core/Src/sysmem.c.obj CMakeFiles/test.dir/Core/Src/syscalls.c.obj CMakeFiles/test.dir/startup_stm32f103xb.s.obj
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g
   OBJECT_DIR = CMakeFiles/test.dir
   POST_BUILD = :
@@ -230,7 +270,7 @@ build test.elf: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/Core/Src/mai
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/nick/Electronics/cubemx/test && /home/nick/st/stm32cubeclt_1.15.0/CMake/bin/ccmake -S/home/nick/Electronics/cubemx/test -B/home/nick/Electronics/cubemx/test
+  COMMAND = cd /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test && /opt/st/stm32cubeclt_1.16.0/CMake/bin/ccmake -S/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test -B/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -242,7 +282,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/nick/Electronics/cubemx/test && /home/nick/st/stm32cubeclt_1.15.0/CMake/bin/cmake --regenerate-during-build -S/home/nick/Electronics/cubemx/test -B/home/nick/Electronics/cubemx/test
+  COMMAND = cd /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test && /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --regenerate-during-build -S/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test -B/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -251,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/nick/Electronics/cubemx/test/CMakeLists.txt
+# /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/CMakeLists.txt
 # =============================================================================
 
 
@@ -259,7 +299,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build cmake/stm32cubemx/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/nick/Electronics/cubemx/test/cmake/stm32cubemx && /home/nick/st/stm32cubeclt_1.15.0/CMake/bin/ccmake -S/home/nick/Electronics/cubemx/test -B/home/nick/Electronics/cubemx/test
+  COMMAND = cd /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx && /opt/st/stm32cubeclt_1.16.0/CMake/bin/ccmake -S/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test -B/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -271,7 +311,7 @@ build cmake/stm32cubemx/edit_cache: phony cmake/stm32cubemx/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build cmake/stm32cubemx/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/nick/Electronics/cubemx/test/cmake/stm32cubemx && /home/nick/st/stm32cubeclt_1.15.0/CMake/bin/cmake --regenerate-during-build -S/home/nick/Electronics/cubemx/test -B/home/nick/Electronics/cubemx/test
+  COMMAND = cd /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx && /opt/st/stm32cubeclt_1.16.0/CMake/bin/cmake --regenerate-during-build -S/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test -B/home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -289,14 +329,14 @@ build test: phony test.elf
 # =============================================================================
 
 #############################################
-# Folder: /home/nick/Electronics/cubemx/test
+# Folder: /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test
 
 build all: phony test.elf cmake/stm32cubemx/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/nick/Electronics/cubemx/test/cmake/stm32cubemx
+# Folder: /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx
 
 build cmake/stm32cubemx/all: phony
 
@@ -307,14 +347,14 @@ build cmake/stm32cubemx/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake CMakeLists.txt cmake/gcc-arm-none-eabi.cmake cmake/stm32cubemx/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake CMakeLists.txt cmake/gcc-arm-none-eabi.cmake cmake/stm32cubemx/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/nick/st/stm32cubeclt_1.15.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake CMakeLists.txt cmake/gcc-arm-none-eabi.cmake cmake/stm32cubemx/CMakeLists.txt: phony
+build /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-ASM.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake /opt/st/stm32cubeclt_1.16.0/CMake/share/cmake-3.28/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeASMCompiler.cmake CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake CMakeLists.txt cmake/gcc-arm-none-eabi.cmake cmake/stm32cubemx/CMakeLists.txt: phony
 
 
 #############################################

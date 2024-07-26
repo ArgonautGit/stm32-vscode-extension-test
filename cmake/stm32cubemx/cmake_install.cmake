@@ -1,4 +1,4 @@
-# Install script for directory: /home/nick/Electronics/cubemx/test/cmake/stm32cubemx
+# Install script for directory: /home/nick/electronics/stm/vscode_extension/stm32-vscode-extension-test/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/nick/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/opt/st/stm32cubeclt_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-objdump")
 endif()
 
