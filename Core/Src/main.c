@@ -99,14 +99,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-    HAL_Delay(500);
-
-    ssd1306_Fill(Black);
-    ssd1306_SetCursor(0, 0);
     loop();
-    ssd1306_UpdateScreen();
-
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
