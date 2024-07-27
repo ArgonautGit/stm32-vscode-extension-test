@@ -1,5 +1,7 @@
 #include "ssd1306.h"
 
+#include <stdio.h>
+
 int setup() {
     ssd1306_Init();
 

@@ -23,7 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include "ssd1306.h"
 
-// #include "mine.h"
+#include "mine.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -91,7 +91,6 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  #include "mine.h"
   setup();
   /* USER CODE END 2 */
 
