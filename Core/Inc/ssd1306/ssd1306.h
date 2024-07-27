@@ -126,6 +126,9 @@ typedef enum {
     White = 0x01  // Pixel is set. Color depends on OLED
 } SSD1306_COLOR;
 
+#define SSD1306_BLACK Black
+#define SSD1306_WHITE White
+
 typedef enum {
     SSD1306_OK = 0x00,
     SSD1306_ERR = 0x01  // Generic error.
